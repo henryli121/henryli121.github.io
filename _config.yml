@@ -40,8 +40,6 @@ nav_links:
     link: "/"
   - name: "About"
     link: "/about/"
-  - name: "Welcome"
-    link: "/welcome/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
