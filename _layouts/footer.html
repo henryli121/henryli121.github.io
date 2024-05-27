@@ -1,36 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
-    <header>
-      <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-      <nav>
-        <ul>
-          {% for link in site.nav_links %}
-            <li><a href="{{ link.link }}">{{ link.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-    <footer>
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-      <ul>
-        <li><a href="{{ site.url }}">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about/">关于</a></li>
-        <li><a href="{{ site.baseurl }}/blog/">博客</a></li>
-        <li><a href="{{ site.baseurl }}/pic/">摄影</a></li>
-        <li><a href="{{ site.baseurl }}/creation/">创作</a></li>
-        <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-        <li><a href="https://instagram.com/{{ site.instagram_username }}">Instagram</a></li>
-      </ul>
-    </footer>
-  </body>
-</html>
+<footer>
+    <div class="wrapper">
+      <h2 class="footer-heading">{{ site.title }}</h2>
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">{{ site.title }}</li>
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            <li><a href="https://github.com/{{ site.github_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username }}</span></a></li>
+            <li><a href="https://instagram.com/{{ site.instagram_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ site.instagram_username }}</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col-3">
+          <p>{{ site.description | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
