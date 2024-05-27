@@ -35,10 +35,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-collections:
-  photographs:
-    output: true
-
 # Add the navigation links here
 nav_links:
   - name: "Home"

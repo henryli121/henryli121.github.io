@@ -1,16 +1,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
-  <meta name="description" content="{{ site.description | escape }}">
-
-  <!-- Link to CSS files -->
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
-
-  <!-- Polyfill for older browsers -->
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-  <!-- MathJax for rendering mathematical expressions -->
   <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml​⬤
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
