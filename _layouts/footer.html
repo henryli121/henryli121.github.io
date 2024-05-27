@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+      <nav>
+        <ul>
+          {% for link in site.nav_links %}
+            <li><a href="{{ link.link }}">{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+      <ul>
+        <li><a href="{{ site.url }}">Home</a></li>
+        <li><a href="{{ site.baseurl }}/about/">关于</a></li>
+        <li><a href="{{ site.baseurl }}/blog/">博客</a></li>
+        <li><a href="{{ site.baseurl }}/pic/">摄影</a></li>
+        <li><a href="{{ site.baseurl }}/creation/">创作</a></li>
+        <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+        <li><a href="https://instagram.com/{{ site.instagram_username }}">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

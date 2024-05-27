@@ -26,8 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/henry.github.io" # the subpath of your site, e.g. /blog
 url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+instagram_username: henry_lihao
 github_username:  henryli121
+permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 theme: minima
@@ -38,8 +39,15 @@ plugins:
 nav_links:
   - name: "Home"
     link: "/"
-  - name: "About"
+  - name: "关于"
     link: "/about/"
+  - name: "博客"
+    link: "/blog/"
+  - name: "摄影"
+    link: "/pic/"
+  - name: "创作"
+    link: "/create/"
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
