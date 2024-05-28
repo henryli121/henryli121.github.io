@@ -24,7 +24,7 @@ description: >
   "在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学"。
   
   “All models are wrong, but some are useful" - George E.P.Box
-baseurl: ""
+baseurl: "/henry.github.io"
 url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: henry_lihao
 github_username:  henryli121
@@ -38,15 +38,15 @@ plugins:
 # Add the navigation links here
 nav_links:
   - name: "Home"
-    link: "/"
+    link: "/henry.github.io/"
   - name: "关于"
-    link: "/about/"
+    link: "/henry.github.io/about/"
   - name: "博客"
-    link: "/blog/"
+    link: "/henry.github.io/blog/"
   - name: "摄影"
-    link: "/pic/"
+    link: "/henry.github.io/pic/"
   - name: "创作"
-    link: "/create/"
+    link: "/henry.github.io/create/"
   
 
 # Exclude from processing.
