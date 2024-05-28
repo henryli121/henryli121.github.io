@@ -11,7 +11,7 @@ permalink: /pic/
 ## 图片展示
 
 ### 图片 1
-![Image 1]({{ "/assets/images/_1.JPG" | relative_url }})
+![Image 1]({{ "/henry.github.io/assets/images/_1.JPG" | relative_url }})
 
 ### 图片 2
-![Image 2]({{ "/assets/images/_2.JPG" | relative_url }})
+![Image 2]({{ "/henry.github.io/assets/images/_2.JPG" | relative_url }})
