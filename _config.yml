@@ -28,6 +28,7 @@ baseurl: "/henry.github.io"
 url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: henry_lihao
 github_username:  henryli121
+linkedin_username: haoli525
 permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
