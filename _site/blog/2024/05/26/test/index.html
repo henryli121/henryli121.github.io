@@ -7,6 +7,19 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="/henry.github.io/assets/css/lightbox.css" rel="stylesheet">
+  <script src="/henry.github.io/assets/js/lightbox.js"></script>
+  <link href="/henry.github.io/assets/css/gallery.css" rel="stylesheet">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true,
+        'albumLabel': "Image %1 of %2",
+      });
+    });
+  </script>
 </head><body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/henry.github.io/">My Approximation</a><nav class="site-nav">
@@ -67,5 +80,6 @@
 
 </footer>
 </body>
+  
 
 </html>

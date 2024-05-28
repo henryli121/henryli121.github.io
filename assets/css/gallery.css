@@ -1,0 +1,27 @@
+/* assets/css/gallery.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery a {
+    flex: 1 1 calc(33.333% - 10px); /* Adjust based on the number of columns you want */
+    box-sizing: border-box;
+    display: block;
+    text-align: center; /* Center the captions */
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #fff; /* Add some border if you like */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gallery .caption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
