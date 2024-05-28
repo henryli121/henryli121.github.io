@@ -24,8 +24,8 @@ description: >
   "在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学"。
   
   “All models are wrong, but some are useful" - George E.P.Box
-baseurl: "/henry.github.io"
-url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: ""https://henryli121.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: henry_lihao
 github_username:  henryli121
 permalink: /:categories/:year/:month/:day/:title/
