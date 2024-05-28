@@ -11,7 +11,7 @@ permalink: /pic/
 ## 图片展示
 
 ### 图片 1
-<img src="{{site.baseurl | prepend: site.url}}assets/_1.jpg" alt="Untitled" />
+<img src="{{site.baseurl | prepend: site.url}}/assets/_1.jpg" alt="Untitled" />
 
 ### 图片 2
-<img src="{{site.baseurl | prepend: site.url}}assets/_2.JPG" alt="Untitled" />
+<img src="{{site.baseurl | prepend: site.url}}/assets/_2.JPG" alt="Untitled" />
