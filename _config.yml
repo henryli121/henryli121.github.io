@@ -25,7 +25,7 @@ description: >
   
   “All models are wrong, but some are useful" - George E.P.Box
 baseurl: ""
-url: ""https://henryli121.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: henry_lihao
 github_username:  henryli121
 permalink: /:categories/:year/:month/:day/:title/
