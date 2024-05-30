@@ -34,5 +34,32 @@ layout: base
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  <!-- Custom Like and Share Buttons -->
+  <div class="social-buttons">
+    <button onclick="likePost()"><i class="fas fa-thumbs-up"></i> 喜欢</button>
+    <button onclick="sharePost()"><i class="fas fa-share"></i> 分享</button>
+  </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+  function likePost() {
+    alert('感谢你的喜欢！');
+  }
+
+  function sharePost() {
+    const postUrl = window.location.href;
+    const textArea = document.createElement('textarea');
+    textArea.value = postUrl;
+    document.body.appendChild(textArea);
+    textArea.select();
+    try {
+      document.execCommand('copy');
+      alert('🔗链接已复制到剪贴板');
+    } catch (err) {
+      alert('Failed to copy the link');
+    }
+    document.body.removeChild(textArea);
+  }
+</script>

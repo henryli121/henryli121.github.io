@@ -1,0 +1,39 @@
+/* custom.css */
+
+/* 修改代码块背景颜色和文本大小 */
+.highlight pre, pre {
+    background: #f8f8f8 !important; /* 设置为浅灰色背景 */
+    font-size: 0.9em; /* 调整代码字体大小 */
+    padding: 1em;
+    border-radius: 5px;
+    overflow: auto;
+    border: 1px solid #ddd;
+}
+
+/* 修改代码内联样式 */
+code {
+    background: #f8f8f8 !important;
+    font-size: 0.9em;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* 具体覆盖 Pygments 的样式 */
+div.highlight pre, .highlight pre {
+    background: #f8f8f8 !important;
+    font-size: 0.9em !important;
+    border: 1px solid #ddd !important;
+    padding: 1em !important;
+    border-radius: 5px !important;
+    overflow: auto !important;
+}
+
+/* 具体覆盖 Rouge 的样式 */
+.highlight pre, .rouge-code {
+    background: #f8f8f8 !important;
+    font-size: 0.9em !important;
+    border: 1px solid #ddd !important;
+    padding: 1em !important;
+    border-radius: 5px !important;
+    overflow: auto !important;
+}

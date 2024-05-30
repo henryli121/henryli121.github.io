@@ -684,9 +684,9 @@ body {
 }
 
 .quote-box {
-  border: 1px solid #ddd; /* Light gray border */
-  padding: 20px;
-  margin: 20px 0; /* Adjust the margin as needed */
+  border: 2px solid #ddd; /* Light gray border */
+  padding: 18px;
+  margin: 18px 0; /* Adjust the margin as needed */
   background-color: #f9f9f9; /* Light gray background */
   text-align: center; /* Center align the text */
   font-style: normal; /* Italic text */
@@ -713,5 +713,32 @@ body {
   font-size: 20px;
   font-family: 'Hiragino Sans GB', sans-serif; /* Use the Chinese font for consistency */
   color: #000000; /* Text color */
+}
+
+/* Social buttons container */
+.social-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-buttons button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-buttons button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.social-buttons button .fa {
+  margin-right: 8px; /* Space between icon and text */
 }
 /*# sourceMappingURL=main.css.map */
