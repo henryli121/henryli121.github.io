@@ -1,6 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-05-29T20:31:59+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-05-29T21:55:46+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; - George E.P.Box
-</subtitle><entry><title type="html">拍摄星空 是件浪漫又孤独的事</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/29/01/" rel="alternate" type="text/html" title="拍摄星空 是件浪漫又孤独的事" /><published>2024-05-29T18:00:00+08:00</published><updated>2024-05-29T18:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/29/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/29/01/"><![CDATA[<p>上学期，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。
-<img src="/assets/blog_images/052901.JPG" alt="01" />
-<em>图中的蓝点是旅行者1号在离开太阳系时拍摄的地球</em></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[上学期，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。 图中的蓝点是旅行者1号在离开太阳系时拍摄的地球]]></summary></entry><entry><title type="html">博客2</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/27/test2/" rel="alternate" type="text/html" title="博客2" /><published>2024-05-27T12:00:00+08:00</published><updated>2024-05-27T12:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/27/test2</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/27/test2/"><![CDATA[<p>第二篇测试博客。</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[第二篇测试博客。]]></summary></entry><entry><title type="html">第一篇测试文章</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/26/test/" rel="alternate" type="text/html" title="第一篇测试文章" /><published>2024-05-26T20:00:00+08:00</published><updated>2024-05-26T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/26/test</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/26/test/"><![CDATA[<p>第一篇文章测试</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[第一篇文章测试]]></summary></entry></feed>
+</subtitle><entry><title type="html">拍摄星空 是件浪漫又孤独的事</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/29/01/" rel="alternate" type="text/html" title="拍摄星空 是件浪漫又孤独的事" /><published>2024-05-29T18:00:00+08:00</published><updated>2024-05-29T18:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/29/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/29/01/"><![CDATA[<p>本科的时候，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。</p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0529_01.JPG" alt="Image 1" />
+  <br />
+  <div class="caption"> 图中的蓝点是旅行者1号在离开太阳系时拍摄的地球</div>
+</div>
+
+<p>但是心里那种对宇宙的好奇和对未知的探索，却一直推动者我。抬起头，去仰望这个一望无际的宇宙；去拍摄，这星光璀璨的星空。</p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0529_02.JPG" alt="Image 2" />
+</div>
+<div class="image-container">
+    <img src="/henry.github.io/assets/blog_images/0529_04.JPG" alt="Image 3" />
+    <br />
+    <div class="caption">60倍镜头变焦下的月亮</div>
+</div>
+
+<p>月球是我拍摄过最多的天体。也许是因为她最近，也许是因为她亮，但是更吸引我的是<b>她那永远看不到的背面</b>。</p>
+
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0529_05.JPG" alt="Image 4" />
+  <br />
+  <div class="caption">天文课上用专业的望远镜拍摄的NGC 4485星系，距地球2500万光年</div>
+</div>
+
+<p>这是我拍摄过最远的星体。虽然在一瞬间就看了它，但是这个星体发出的光其实是2500万年前的。那时候地球还在中新世，冰河时代即将开始，哺乳动物也才刚刚出现。
+<br />
+<br />
+有人说当你抬头仰望星空时，你就能看见整个宇宙的历史。的确，因为光速是有限的，你看的月亮其实是1.3秒前的月亮，你看到的太阳其实是8分钟前的太阳。星体越远，你看到是它们越遥远的历史。</p>
+
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0529_06.JPG" alt="Image 5" />
+  <br />
+  <div class="caption">昨晚我头顶的星空</div>
+</div>
+
+<p>我望着这星河璀璨的夜空，突然感到有一阵无助的孤独。<b>我</b> 只是这个地球上的1/70亿，地球只是银河系1/1000亿，而银河系只是这个宇宙的1/10000亿。
+<br />
+<br />
+我 小到忽略不计，于是我问自己，“<b>我存在的意义又是什么呢？</b>”
+<br />
+<br />
+又突然想到，当1000年前的苏轼写下 “<b>寄蜉蝣于天地，渺沧海之一粟</b>” 时，他是不是跟我仰望的同一片星空呢？</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[本科的时候，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。 图中的蓝点是旅行者1号在离开太阳系时拍摄的地球]]></summary></entry><entry><title type="html">博客2</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/27/test2/" rel="alternate" type="text/html" title="博客2" /><published>2024-05-27T12:00:00+08:00</published><updated>2024-05-27T12:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/27/test2</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/27/test2/"><![CDATA[<p>第二篇测试博客。</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[第二篇测试博客。]]></summary></entry><entry><title type="html">第一篇测试文章</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/26/test/" rel="alternate" type="text/html" title="第一篇测试文章" /><published>2024-05-26T20:00:00+08:00</published><updated>2024-05-26T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/26/test</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/26/test/"><![CDATA[<p>第一篇文章测试</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[第一篇文章测试]]></summary></entry></feed>
