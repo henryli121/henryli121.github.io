@@ -683,4 +683,24 @@ body {
   margin-top: 5px;
 }
 
+.quote-box {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 20px;
+  margin: 20px 0; /* Adjust the margin as needed */
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center; /* Center align the text */
+  font-style: italic; /* Italic text */
+  font-family: 'Noto Sans SC', sans-serif; /* Use the Chinese font for consistency */
+}
+
+.quote-box h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+}
+
+.quote-box p {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
