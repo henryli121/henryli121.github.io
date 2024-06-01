@@ -217,8 +217,8 @@ table td {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 0px solid #424242;
+  border-bottom: 0.7px solid #505050;
   min-height: 55.95px;
   position: relative;
 }
@@ -232,7 +232,7 @@ table td {
   float: left;
 }
 .site-title, .site-title:visited {
-  color: #424242;
+  color: #505050;
 }
 
 .site-nav {
@@ -246,7 +246,7 @@ table td {
   display: none;
 }
 .site-nav .page-link {
-  color: #111;
+  color: #505050;
   line-height: 1.5;
 }
 .site-nav .page-link:not(:last-child) {
@@ -280,7 +280,7 @@ table td {
     text-align: center;
   }
   .site-nav .menu-icon > svg {
-    fill: #424242;
+    fill: #505050;
   }
   .site-nav input ~ .trigger {
     clear: both;
@@ -304,7 +304,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 0.5px solid #505050;
   padding: 30px 0;
 }
 
@@ -649,8 +649,8 @@ table td {
 .footer-divider {
   width: 100%; /* Adjust the width as needed */
   margin: 40px auto; /* Adjust the margin as needed */
-  border-bottom: 1px solid #e0e0e0; /* Light grey color for the line */
-  opacity: 0.7; /* Slight transparency */
+  border-bottom: 0.7px solid #505050; /* Light grey color for the line */
+  opacity: 1; /* Slight transparency */
 }
 
 /* Ensure you have this CSS reset to handle different languages */

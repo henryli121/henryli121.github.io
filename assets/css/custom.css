@@ -37,14 +37,26 @@ div.highlight pre, .highlight pre {
     border-radius: 5px !important;
     overflow: auto !important;
 }
-/* custom.css or main.css */
-.toggle-container {
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #141414;
+    color: #ffffff;
+}
+  /* Toggle button styles */
+  .toggle-container {
     position: relative;
     display: inline-block;
-    margin-left: 20px;
-  }
+    margin-left: 7px;
+    top: 7px;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
   
-  .toggle-label {
+.toggle-label {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -54,47 +66,41 @@ div.highlight pre, .highlight pre {
     border-radius: 25px;
     position: relative;
     transition: background-color 0.3s;
-  }
+}
   
-  #dark-mode-toggle {
-    display: none;
-  }
-  
-  .toggle-icon {
+.toggle-icon {
     position: absolute;
     width: 20px;
     height: 20px;
     top: 50%;
     transform: translateY(-50%);
     transition: transform 0.3s, opacity 0.3s;
-  }
+}
   
-  .sun-icon {
+.sun-icon {
     left: 5px;
-    background-image: url('/assets/images/sun-icon.png');
+    background-image: url('../images/sun-icon.png');
     background-size: cover;
     opacity: 1;
-  }
+}
   
-  .moon-icon {
+.moon-icon {
     right: 5px;
-    background-image: url('/assets/images/moon-icon.png');
+    background-image: url('../images/moon-icon.png');
     background-size: cover;
     opacity: 0;
-  }
+}
   
-  #dark-mode-toggle:checked + .toggle-label {
-    background-color: #333;
-  }
-  
-  #dark-mode-toggle:checked + .toggle-label .sun-icon {
+#dark-mode-toggle:checked + .toggle-label .sun-icon {
     opacity: 0;
-    transform: translateX(-20px);
-  }
+}
   
-  #dark-mode-toggle:checked + .toggle-label .moon-icon {
+#dark-mode-toggle:checked + .toggle-label .moon-icon {
     opacity: 1;
-    transform: translateX(20px);
-  }
+}
+  
+#dark-mode-toggle {
+    display: none;
+}
   /* Add more styles as needed to properly style your dark mode */
 /* Add more specific styles as needed for other elements */

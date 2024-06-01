@@ -25,24 +25,6 @@
     });
   </script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const toggleButton = document.getElementById('dark-mode-toggle');
-    const darkModeStylesheet = document.createElement('link');
-    darkModeStylesheet.rel = 'stylesheet';
-    darkModeStylesheet.href = '{{ "/assets/css/custom.css" | relative_url }}';
-    darkModeStylesheet.id = 'dark-mode-stylesheet';
-
-    toggleButton.addEventListener('click', () => {
-      if (document.getElementById('dark-mode-stylesheet')) {
-        document.getElementById('dark-mode-stylesheet').remove();
-      } else {
-        document.head.appendChild(darkModeStylesheet);
-      }
-    });
-  });
-</script>
-
     <!-- Include the Noto Sans SC font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">

@@ -26,24 +26,6 @@
     });
   </script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const toggleButton = document.getElementById('dark-mode-toggle');
-    const darkModeStylesheet = document.createElement('link');
-    darkModeStylesheet.rel = 'stylesheet';
-    darkModeStylesheet.href = '/henry.github.io/assets/css/custom.css';
-    darkModeStylesheet.id = 'dark-mode-stylesheet';
-
-    toggleButton.addEventListener('click', () => {
-      if (document.getElementById('dark-mode-stylesheet')) {
-        document.getElementById('dark-mode-stylesheet').remove();
-      } else {
-        document.head.appendChild(darkModeStylesheet);
-      }
-    });
-  });
-</script>
-
     <!-- Include the Noto Sans SC font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
@@ -71,9 +53,13 @@
                 
                     <a class="page-link" href="/henry.github.io/create/">创作</a>
                 
-                <button id="dark-mode-toggle" class="dark-mode-button">
-                    <img id="dark-mode-icon" src="/henry.github.io/assets/images/moon-icon.png" alt="Dark Mode" />
-                </button>
+                <div class="toggle-container">
+                    <input type="checkbox" id="dark-mode-toggle" onclick="toggleDarkMode()">
+                    <label for="dark-mode-toggle" class="toggle-label">
+                        <span class="toggle-icon sun-icon"></span>
+                        <span class="toggle-icon moon-icon"></span>
+                    </label>
+                </div>
             </div>
         </nav>
     </div>
