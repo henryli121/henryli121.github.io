@@ -1,3 +1,4 @@
+<!-- _includes/head.html -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,7 @@
   <link href="{{ '/assets/css/lightbox.css' | relative_url }}" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <script src="{{ '/assets/js/dark-mode.js' | relative_url }}" defer></script>
   <link href="{{ '/assets/css/gallery.css' | relative_url }}" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="{{ '/assets/js/lightbox-plus-jquery.min.js' | relative_url }}"></script>
@@ -22,6 +24,25 @@
       });
     });
   </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    const darkModeStylesheet = document.createElement('link');
+    darkModeStylesheet.rel = 'stylesheet';
+    darkModeStylesheet.href = '{{ "/assets/css/custom.css" | relative_url }}';
+    darkModeStylesheet.id = 'dark-mode-stylesheet';
+
+    toggleButton.addEventListener('click', () => {
+      if (document.getElementById('dark-mode-stylesheet')) {
+        document.getElementById('dark-mode-stylesheet').remove();
+      } else {
+        document.head.appendChild(darkModeStylesheet);
+      }
+    });
+  });
+</script>
+
     <!-- Include the Noto Sans SC font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">

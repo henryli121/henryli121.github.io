@@ -38,8 +38,6 @@ plugins:
 
 # Add the navigation links here
 nav_links:
-  - name: "Home"
-    link: "/henry.github.io/"
   - name: "关于"
     link: "/henry.github.io/about/"
   - name: "博客"
