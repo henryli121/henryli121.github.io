@@ -255,12 +255,14 @@ table td {
 @media screen and (max-width: 600px) {
   .site-nav {
     position: absolute;
+    font-size: 13px;
     top: 9px;
     right: 15px;
     background-color: #fdfdfd;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
-    text-align: right;
+    text-align: center;
+    width: calc(15% - 30px);
   }
   .site-nav label[for=nav-trigger] {
     display: block;
@@ -272,8 +274,8 @@ table td {
   }
   .site-nav .menu-icon {
     display: block;
-    float: right;
-    width: 36px;
+    float: center;
+    width: 15px;
     height: 26px;
     line-height: 0;
     padding-top: 10px;
@@ -293,7 +295,8 @@ table td {
   .site-nav .page-link {
     display: block;
     padding: 5px 10px;
-    margin-left: 20px;
+    margin-left: 5px;
+    text-align: center;
   }
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
