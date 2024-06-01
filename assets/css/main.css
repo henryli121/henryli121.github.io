@@ -262,7 +262,8 @@ table td {
     border: 1px solid #e8e8e8;
     border-radius: 5px;
     text-align: center;
-    width: calc(15% - 30px);
+    width: 100%; /* Make the nav bar full width */
+    max-width: 300px; /* Set a maximum width */
   }
   .site-nav label[for=nav-trigger] {
     display: block;
@@ -274,8 +275,8 @@ table td {
   }
   .site-nav .menu-icon {
     display: block;
-    float: center;
-    width: 15px;
+    float: right;
+    width: 36px;
     height: 26px;
     line-height: 0;
     padding-top: 10px;
@@ -294,12 +295,28 @@ table td {
   }
   .site-nav .page-link {
     display: block;
-    padding: 5px 10px;
-    margin-left: 5px;
+    padding: 10px 0; /* Increase padding for better touch targets */
     text-align: center;
   }
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
+  }
+  .toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 25px;
+    position: relative;
+    transition: background-color 0.3s;
   }
 }
 
