@@ -731,7 +731,7 @@ body {
 }
 
 .image-container img {
-  max-width: 60%; /* Reduce the image size */
+  max-width: 85%; /* Reduce the image size */
   height: auto;
   border-radius: 5px; /* Optional: add some border radius for rounded corners */
 }
