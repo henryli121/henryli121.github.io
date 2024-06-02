@@ -210,3 +210,7 @@ body.lb-disable-scrolling {
   display: inline-block;
   padding-top: .5em;
 }
+
+.dark-mode .caption {
+  color: #d0d0d1 !important; /* Caption color for dark mode */
+}

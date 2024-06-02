@@ -24,7 +24,7 @@ div.highlight pre, .highlight pre {
     font-size: 0.9em !important;
     border: 1px solid #ddd !important;
     padding: 1em !important;
-    border-radius: 5px !important;
+    border-radius: 1px !important;
     overflow: auto !important;
 }
 
@@ -38,10 +38,37 @@ div.highlight pre, .highlight pre {
     overflow: auto !important;
 }
 
+/* Dark mode styles for code blocks */
+.dark-mode .highlight pre, 
+.dark-mode pre,
+.dark-mode div.highlight pre, 
+.dark-mode .rouge-code {
+    background: #282c33 !important; /* Dark mode background */
+    border: 1px solid #3a3f4b !important;
+    border-radius: 1px #181818 !important;
+    color: #abb2bf !important; /* Code text color */
+}
+
+/* Inline code styles for dark mode */
+.dark-mode code {
+    background: #282c33 !important; /* Dark mode background */
+    color: #abb2bf !important; /* Inline code text color */
+}
+
+/* Highlight color in dark mode */
+.dark-mode .highlight pre .highlighted,
+.dark-mode pre .highlighted,
+.dark-mode code .highlighted,
+.dark-mode div.highlight pre .highlighted,
+.dark-mode .rouge-code .highlighted {
+    background: #3a3f4b !important; /* Highlight background color in dark mode */
+    color: #e06c75 !important; /* Highlight text color in dark mode */
+}
+
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #141414;
-    color: #ffffff;
+    background-color: #181818;
+    color: #d1d1d1;
 }
   /* Toggle button styles */
   .toggle-container {
@@ -51,7 +78,7 @@ body.dark-mode {
     top: 7px;
     width: 25px;
     height: 25px;
-    background-color: #ccc;
+    background-color: #d1d1d1;
     border-radius: 20px;
     transition: background-color 0.3s;
 }
@@ -62,7 +89,7 @@ body.dark-mode {
     cursor: pointer;
     width: 30px;
     height: 25px;
-    background-color: #ccc;
+    background-color: #d1d1d1;
     border-radius: 25px;
     position: relative;
     transition: background-color 0.3s;
