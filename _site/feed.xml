@@ -1,7 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-06-02T20:45:23+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-06-07T17:59:21+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; - George E.P.Box
-</subtitle><entry><title type="html">从零开始创建个人网站的旅程</title><link href="http://localhost:4000/henry.github.io/create/2024/05/30/website-creation/" rel="alternate" type="text/html" title="从零开始创建个人网站的旅程" /><published>2024-05-30T17:00:00+08:00</published><updated>2024-05-30T17:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/create/2024/05/30/website-creation</id><content type="html" xml:base="http://localhost:4000/henry.github.io/create/2024/05/30/website-creation/"><![CDATA[<h3 id="引言">引言</h3>
+</subtitle><entry><title type="html">什么是音乐？</title><link href="http://localhost:4000/henry.github.io/blog/2024/06/07/01/" rel="alternate" type="text/html" title="什么是音乐？" /><published>2024-06-07T16:00:00+08:00</published><updated>2024-06-07T16:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/06/07/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/06/07/01/"><![CDATA[<div class="final-quote">
+音，声也。生于心，有节于外，谓之音。
+<br />
+<p style="font-size:13px;" align="right">  - 许慎《说文解字·音部》 </p> 
+</div>
+<p>“音是声音的一种。产生于内心，有节奏地表现出来后，叫做音乐。” 这是许慎在东汉时期就给出的定义。“生于心”，听着挺玄乎，但貌似有道理。其实，音乐的起源一直是一个谜，现在主流的说法主要有三种。</p>
+
+<div class="quote-box">
+  <p>音乐的起源</p>
+</div>
+<p><b>语言→音乐：</b>
+<br />支持语言产生音乐的主要是考古学家。他们通过古代遗迹发现文字普遍出现的更早，因此，由于语言的表达方式不同，有的表达渐渐地演化成了我们所说的音乐。
+<br />
+<b>音乐→语言：</b>
+<br />支持音乐产生语言的主要是人类学家。他们通过研究古老的部落发现，尽管一些部落还没有完整的语言系统，但是已经产生了通过音乐交流的途径。
+<br />
+最后一种说法就是：音乐和语言同时产生。</p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0607_01.JPG" alt="Image 1" />
+</div>
+
+<div class="quote-box">
+  <p>音乐和语言的差别</p>
+</div>
+<p>语言和音乐存在很大的不同，其中两个最大的差别就是<b>方向性</b>和<b>重复性</b>。</p>
+
+<ul>
+  <li>方向性：
+语言有明显的方向性。一句完整的话有特定的主语和宾语，这明确表明了人物的指向。而且，语言要在两个人都会同一门语言的前提下，传递信息的功能才能实现。相反，音乐则没有明确的方向性。任何人都可以不同的形式和不同的理解接受一段旋律。正所谓：音乐无国界。<br /></li>
+  <li>重复性:
+语言和音乐都有重复，但是他们的功能完全不同。语言的重复是发生在当对方没有听懂和想强调自己的话时。但是音乐的重复目的是在<b>为了扩大情感的共鸣</b>。</li>
+</ul>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0607_02.JPG" alt="Image 2" />
+</div>
+
+<div class="quote-box">
+  <p>音乐和语言的功能</p>
+</div>
+<p>所以，简单的总结一下， 语言的功能是：<b>传递信息</b>；音乐的功能是：<b>传递感情</b>。<br />
+那现在不妨让我们把思维再打开一些：<br />
+什么是传递信息？无非就是一个物体产生信息，然后另一个物体接受信息。并且这只存在：0（未接受）和1（接受）这两种可能性。比如：当我们使用电脑，这就是一种信息的传递，而我们使用的就是计算机语言：0和1。因此，基于程序的人工智能在过去的几年便轻松攻破了人类的语言体系。<br />
+什么是传递感情？这个问题显然宽泛。但是，如果我们想象信息是一种0和1的状态话，不难想象，情感就是0和1的<b>纠缠态</b>。比如，我们不会说我完全接受/未接受这个感情。但是，我们会说我又爱你，又恨你。这就是感情的不确定性。因此，即便如今的人工智能可以根据乐理来创作音乐，但是在人类看来那始终是缺乏情感的。</p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0607_03.JPG" alt="Image 3" />
+</div>
+
+<div class="quote-box">
+  <p>音乐是什么</p>
+</div>
+<p>最后，我不妨回答我们文章最开始的那个问题：音乐是什么？<br />
+如果说音乐的功能是为了传递纠缠态的感情，那么音乐一定是更高纬度的产物。就像我们现在还无法理解量子纠缠一样。而我们所说的歌曲，旋律，仅仅是音乐在我们三维世界上的投影。所以，<b>现在人类还无法完全的理解音乐</b>。<br />
+但是，我们人类有个有意思的特点，那就是当我们无法解释一个现象时，把它推给上帝，一切就解释得通了。在大多数宗教里都有天使这个概念：天使本意为上天的使者。上帝的使者，他也是离上帝最近的人。而天使的作用就是将神的讯息传递给人类，并且记录下人类的活动然后汇报给上帝。但是，为什么上帝不自己给人类说呢，一定要让天使说呢？因为人类根本无法理解上帝的语言，上帝生活在更高的纬度。因此，我们需要天使这个翻译，来翻译上帝的语言，而这个无法理解的高纬度语言就是音乐。<br /></p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0607_04.JPG" alt="Image 4" />
+</div>
+<p>最后再来解读柏拉图这句对音乐看法：“<b>音乐是道德的法则。它给予宇宙灵魂，思想翅膀，想象飞翔，赋予生活欢乐和一切。</b>”也许，这就是上帝的意义吧。</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[音，声也。生于心，有节于外，谓之音。 - 许慎《说文解字·音部》 “音是声音的一种。产生于内心，有节奏地表现出来后，叫做音乐。” 这是许慎在东汉时期就给出的定义。“生于心”，听着挺玄乎，但貌似有道理。其实，音乐的起源一直是一个谜，现在主流的说法主要有三种。]]></summary></entry><entry><title type="html">从零开始创建个人网站的旅程</title><link href="http://localhost:4000/henry.github.io/create/2024/05/30/website-creation/" rel="alternate" type="text/html" title="从零开始创建个人网站的旅程" /><published>2024-05-30T17:00:00+08:00</published><updated>2024-05-30T17:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/create/2024/05/30/website-creation</id><content type="html" xml:base="http://localhost:4000/henry.github.io/create/2024/05/30/website-creation/"><![CDATA[<h3 id="引言">引言</h3>
 
 <p>欢迎来到我的创作页面！在这篇博文中，我将与大家分享我是如何从零开始创建这个网站的全过程。希望这段经历能对那些也在尝试自己动手搭建网站的朋友们有所帮助。</p>
 
