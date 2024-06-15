@@ -1,7 +1,7 @@
 ---
 layout: english
 title: Photography
-permalink: /en/pic.html
+permalink: /en/pic/
 ---
 
 # Photography

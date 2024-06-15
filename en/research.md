@@ -1,7 +1,7 @@
 ---
 layout: english
 title: Research
-permalink: /en/research.html
+permalink: /en/research/
 ---
 
 # Recent Creations

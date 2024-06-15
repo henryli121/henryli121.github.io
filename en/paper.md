@@ -1,7 +1,7 @@
 ---
 layout: english
 title: Paper
-permalink: /en/paper.html
+permalink: /en/paper/
 ---
 
 # Research Paper

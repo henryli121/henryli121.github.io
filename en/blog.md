@@ -1,7 +1,7 @@
 ---
 layout: english
 title: Blog
-permalink: /en/blog.html
+permalink: /en/blog/
 ---
 
 # Recent Blogs
