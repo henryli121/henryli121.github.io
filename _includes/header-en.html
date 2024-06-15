@@ -1,6 +1,6 @@
 <header class="site-header">
     <div class="wrapper">
-      <a class="site-title" rel="author" href="{{ site.baseurl }}/">My Approximation</a>
+      <a class="site-title" rel="author" href="{{ site.baseurl }}/en/">My Approximation</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -11,10 +11,10 @@
           </span>
         </label>
         <div class="trigger">
-          {% for link in site.nav_links %}
+          {% for link in site.en_nav_links %}
             <a class="page-link" href="{{ link.link }}">{{ link.name }}</a>
           {% endfor %}
-          <a href="{{ site.baseurl }}/en/" class="language-toggle">English</a>
+          <a href="{{ site.baseurl }}/" class="language-toggle">中文</a>
           <div class="toggle-container">
             <input type="checkbox" id="dark-mode-toggle" onclick="toggleDarkMode()">
             <label for="dark-mode-toggle" class="toggle-label">

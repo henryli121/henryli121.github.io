@@ -23,7 +23,11 @@ email: henrylihao@outlook.com
 description: |
   "在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学"。
   <br>
-  “All models are wrong, but some are useful" - George E.P.Box
+  “All models are wrong, but some are useful" -- George E.P.Box
+
+description-en: |
+  "All knowledge is, in final analysis, history. All sciences are, in the abstract, mathematics. All judgements are, in their rationale, statistics." -- C. R. Rao 
+
 baseurl: "/henry.github.io"
 url: "https://henryli121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: henry_lihao
@@ -47,6 +51,15 @@ nav_links:
   - name: "创作"
     link: "/henry.github.io/create/"
   
+en_nav_links:
+  - name: "Paper"
+    link: "/henry.github.io/en/paper/"
+  - name: "About"
+    link: "/henry.github.io/en/about/"
+  - name: "Photography"
+    link: "/henry.github.io/en/pic/"
+  - name: "Research"
+    link: "/henry.github.io/en/research/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

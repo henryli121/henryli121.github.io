@@ -3,6 +3,7 @@ layout: post
 title: "从零开始创建个人网站的旅程"
 date: 2024-05-30 17:00:00 +0800
 categories: create
+lang: "zh"
 ---
 
 ### 引言
