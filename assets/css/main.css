@@ -446,6 +446,22 @@ body:not(.dark-mode) .active-lang {
     text-align: center;
     margin: 0 auto;
   }
+  .site-nav .close-icon {
+    display: none;
+    width: 24px;
+    height: 24px;
+    line-height: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px!important;
+    margin-top: -90px!important;
+  }
+  .nav-trigger:checked ~ .nav-trigger-label .menu-icon {
+    display: none;
+  }
+  .nav-trigger:checked ~ .nav-trigger-label .close-icon {
+    display: block;
+  }
   .site-nav input ~ .trigger {
     clear: both;
     display: none;
@@ -453,9 +469,6 @@ body:not(.dark-mode) .active-lang {
   .site-nav input:checked ~ .trigger {
     display: block;
     padding-bottom: 5px;
-  }
-  .site-nav input:checked ~ .menu-icon {
-    display: none!important; /* Hide the menu icon when the menu is expanded */
   }
   .site-nav .page-link {
     display: block;
@@ -519,6 +532,7 @@ body:not(.dark-mode) .active-lang {
     border-radius: 25px;
     position: relative;
     transition: background-color 0.3s;
+    margin-left: -5px!important;
   }
 }
 /**
