@@ -216,7 +216,132 @@ table td {
 /**
  * Site header
  */
- .site-header {
+/* Site Navigation */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Trigger */
+.trigger {
+  display: flex;
+  align-items: center;
+}
+
+/* Language Switcher */
+.language-switcher {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.language-switcher a {
+  color: #999;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.language-switcher a.active {
+  color: #ffffff; /* Highlighted color for active language */
+  font-weight: bold; /* Make the active language bold */
+}
+
+.language-switcher a:hover {
+  color: #ffffff;
+}
+
+/* Toggle Container */
+.toggle-container {
+  margin-left: 20px; /* Adjust spacing as needed */
+}
+
+/* Specific Classes */
+.language-option {
+  font-size: 14px;
+  text-decoration: none;
+  color: #999;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.language-option.active {
+  color: #ffffff; /* Highlighted color for active language */
+  font-weight: bold; /* Make the active language bold */
+}
+
+.language-option:hover {
+  color: #ffffff;
+}
+
+.language-switch span {
+  color: #999;
+}
+
+.lang-switch {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d1d1d1; /* Adjust color for non-active links */
+}
+
+.active-lang {
+  color: #ffffff; /* Adjust color for active link */
+  font-weight: bold; /* Make the active language bold */
+}
+
+/* Dark mode styles */
+.dark-mode .language-switcher a.active {
+  color: #ffffff; /* Highlighted color for active language in dark mode */
+}
+
+.dark-mode .language-switcher a:hover {
+  color: #ffffff;
+}
+
+.dark-mode .language-option.active {
+  color: #ffffff; /* Highlighted color for active language in dark mode */
+}
+
+.dark-mode .language-option:hover {
+  color: #ffffff;
+}
+
+.dark-mode .lang-switch {
+  color: #d1d1d1; /* Adjust color for non-active links in dark mode */
+}
+
+.dark-mode .active-lang {
+  color: #ffffff; /* Adjust color for active link in dark mode */
+}
+
+/* Bright mode styles */
+body:not(.dark-mode) .language-switcher a.active {
+  color: #000000; /* Highlighted color for active language in bright mode */
+}
+
+body:not(.dark-mode) .language-switcher a:hover {
+  color: #000000;
+}
+
+body:not(.dark-mode) .language-option.active {
+  color: #000000; /* Highlighted color for active language in bright mode */
+}
+
+body:not(.dark-mode) .language-option:hover {
+  color: #000000;
+}
+
+body:not(.dark-mode) .lang-switch {
+  color: #323232; /* Adjust color for non-active links in bright mode */
+}
+
+body:not(.dark-mode) .active-lang {
+  color: #000000; /* Adjust color for active link in bright mode */
+}
+
+.site-header {
   border-top: 0px solid #424242;
   border-bottom: 0.7px solid #505050;
   min-height: 55.95px;
@@ -255,6 +380,7 @@ table td {
 .site-nav .menu-icon {
   display: none;
 }
+
 .site-nav .page-link {
   color: #323232 !important; /* Bright mode text color */
   line-height: 1.5;
@@ -288,6 +414,8 @@ table td {
 .site-nav .page-link:not(:last-child) {
   margin-right: 20px;
 }
+
+
 @media screen and (max-width: 600px) {
   .site-nav {
     position: absolute;
@@ -303,23 +431,20 @@ table td {
   }
   .site-nav label[for=nav-trigger] {
     display: block;
-    float: right;
     width: 36px;
     height: 30px;
     z-index: 2;
     cursor: pointer;
+    margin: 0 auto;
   }
   .site-nav .menu-icon {
     display: block;
-    float: center;
     width: 36px;
     height: 26px;
     line-height: 0;
     padding-top: 8px;
     text-align: center;
-  }
-  .site-nav .menu-icon > svg {
-    fill: #505050;
+    margin: 0 auto;
   }
   .site-nav input ~ .trigger {
     clear: both;
@@ -329,24 +454,60 @@ table td {
     display: block;
     padding-bottom: 5px;
   }
+  .site-nav input:checked ~ .menu-icon {
+    display: none!important; /* Hide the menu icon when the menu is expanded */
+  }
   .site-nav .page-link {
     display: block;
     padding: 5px 0; /* Adjust padding for better spacing */
     margin-left: 0;
     text-align: center;
+    color: #000000; /* Keep the text color black */
   }
-
+  .site-nav input:checked ~ .trigger .page-link:hover {
+    color: #000000 !important; /* Keep the text color black on hover */
+  }
   .dark-mode .site-nav .page-link {
     color: #323232 !important; /* Keep the menu bar text color unchanged */
   }
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
   }
+  
+  .language-switcher {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px!important; /* Adjust margin as needed */
+    margin-bottom: -5px!important;
+    color: #000000 !important; /* Make the language switch text color black */
+  }
+  
+  .language-option {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-option.active {
+    color: #000000!important; /* Highlighted color for active language */
+    font-weight: bold;
+  }
+  
+  .language-option:hover {
+    color: #000000!important;
+  }
+
   .toggle-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -10px!important;
+    margin-bottom: -10px!important; /* Adjust spacing as needed */
+    align-items: center;
   }
+
   .toggle-label {
     display: flex;
     align-items: center;
@@ -360,7 +521,6 @@ table td {
     transition: background-color 0.3s;
   }
 }
-
 /**
  * Site footer
  */
@@ -405,6 +565,7 @@ table td {
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - 30px / 2);
+  margin-top: -15px;
 }
 
 @media screen and (max-width: 800px) {
@@ -709,18 +870,13 @@ table td {
 
 .footer-divider {
   width: 100%; /* Adjust the width as needed */
-  margin: 40px auto; /* Adjust the margin as needed */
+  margin: 20px auto; /* Adjust the margin as needed */
   border-bottom: 0.7px solid #505050; /* Light grey color for the line */
   opacity: 1; /* Slight transparency */
 }
 
-/* Ensure you have this CSS reset to handle different languages */
-body {
-  font-family: Arial, sans-serif; /* Default font for non-Chinese text */
-}
-
 /* Apply Chinese font to blog post content */
-.post-content {
+body[lang="zh"] .post-content {
   font-family: 'Hiragino Sans GB', sans-serif;
 }
 
@@ -751,6 +907,11 @@ body {
   background-color: #f9f9f9; /* Light gray background */
   text-align: center; /* Center align the text */
   font-style: normal; /* Italic text */
+}
+
+/* Default font for Chinese pages */
+body[lang="zh"] .quote-box, 
+body[lang="zh"] .final-quote {
   font-family: 'Hiragino Sans GB', sans-serif; /* Use the Chinese font for consistency */
 }
 
@@ -777,7 +938,6 @@ body {
   font-style: bold; /* Italic text */
   text-align: center;
   font-size: 20px;
-  font-family: 'Hiragino Sans GB', sans-serif; /* Use the Chinese font for consistency */
   color: #1d1d1f; /* Text color */
 }
 
@@ -814,4 +974,46 @@ body {
 .social-buttons button .fa {
   margin-right: 8px; /* Space between icon and text */
 }
-/*# sourceMappingURL=main.css.map */
+
+/* Apply the system font stack to the English pages */
+body[lang="en"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* If you want to specifically target post content */
+body[lang="en"] .post-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Additional styling for headings if needed */
+body[lang="en"] h1, 
+body[lang="en"] h2, 
+body[lang="en"] h3, 
+body[lang="en"] h4, 
+body[lang="en"] h5, 
+body[lang="en"] h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Styling for quote-box in English pages */
+body[lang="en"] .quote-box,
+body[lang="en"] .final-quote {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.footer-col .contact-list .copyright {
+  font-size: 12px; /* Adjust the font size as needed */
+  color: #505050; /* Adjust the color as needed */
+  text-align: left;
+  margin-top: 12px; /* Adjust this value as needed */
+  line-height: 1.5; /* Adjust the line-height for better spacing */
+}
+
+.footer-col .contact-list .copyright a {
+  color: inherit; /* Use the same color as the text */
+  text-decoration: none;
+}
+
+.footer-col .contact-list .copyright a:hover {
+  text-decoration: underline;
+}

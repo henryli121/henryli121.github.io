@@ -5,6 +5,15 @@
         <ul class="contact-list">
           <li class="p-name">{{ site.title }}</li>
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li class="copyright">
+            &copy; {{ site.time | date: "%Y" }} {{ site.title }}. This work is licensed under a 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+              CC BY-NC-SA 4.0 International License
+            </a>.
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+              <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0 License" style="height: 20px; vertical-align: middle;">
+            </a>
+          </li>
         </ul>
       </div>
       <div class="footer-col footer-col-2">

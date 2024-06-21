@@ -52,14 +52,14 @@ nav_links:
     link: "/henry.github.io/create/"
   
 en_nav_links:
-  - name: "Paper"
-    link: "/henry.github.io/en/paper/"
   - name: "About"
     link: "/henry.github.io/en/about/"
-  - name: "Photography"
-    link: "/henry.github.io/en/pic/"
+  - name: "Paper"
+    link: "/henry.github.io/en/paper/"
   - name: "Research"
     link: "/henry.github.io/en/research/"
+  - name: "Photography"
+    link: "/henry.github.io/en/pic/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

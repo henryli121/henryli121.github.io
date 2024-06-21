@@ -4,6 +4,14 @@ title: Research
 permalink: /en/research/
 ---
 
-# Recent Creations
+<h1>Recent Research</h1>
 
-This is the English version of the creation page. Translate the content here.
+<ul>
+{% for post in site.categories.research %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <br>
+    <br>
+  </li>
+{% endfor %}
+</ul>

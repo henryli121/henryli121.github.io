@@ -1,5 +1,6 @@
 ---
 layout: english
+lang: en
 ---
 
 <div class="home">
@@ -21,9 +22,15 @@ layout: english
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+          {%- if post.categories contains "paper" -%}
+            <a class="post-link" href="{{ post.research_gate_link }}" target="_blank">
+              {{ post.title | escape }}
+            </a>
+          {%- else -%}
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          {%- endif -%}
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
@@ -32,5 +39,4 @@ layout: english
       {%- endfor -%}
     </ul>
   {%- endif -%}
-
 </div>

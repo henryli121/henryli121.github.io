@@ -71,16 +71,16 @@ body.dark-mode {
     color: #d1d1d1;
 }
   /* Toggle button styles */
-  .toggle-container {
+.toggle-container {
     position: relative;
     display: inline-block;
-    margin-left: 0px;
-    top: 7px;
+    margin-left: 10px;
     width: 25px;
     height: 25px;
     background-color: #d1d1d1;
     border-radius: 20px;
     transition: background-color 0.3s;
+    vertical-align: middle; /* Align with the other elements */
 }
   
 .toggle-label {
@@ -96,10 +96,10 @@ body.dark-mode {
 }
   
 .toggle-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 50%;
+    position: absolute!important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 50% !important;
     transform: translateY(-50%);
     transition: transform 0.3s, opacity 0.3s;
 }
