@@ -447,14 +447,14 @@ body:not(.dark-mode) .active-lang {
     margin: 0 auto;
   }
   .site-nav .close-icon {
-    display: none;
     width: 24px;
     height: 24px;
     line-height: 0;
     text-align: center;
     margin: 0 auto;
-    margin-left: 0px!important;
-    margin-top: -90px!important;
+    margin-top: -90px; /* Adjust the margin to align with the menu icon */
+    margin-left: 0px;
+    display: none; /* Initially hide the close icon */
   }
   .nav-trigger:checked ~ .nav-trigger-label .menu-icon {
     display: none;
@@ -533,6 +533,12 @@ body:not(.dark-mode) .active-lang {
     position: relative;
     transition: background-color 0.3s;
     margin-left: -5px!important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .site-nav .close-icon {
+    display: none;
   }
 }
 /**
