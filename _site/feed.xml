@@ -1,7 +1,202 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-07-09T22:31:35+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-07-12T20:08:38+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; -- George E.P.Box
-</subtitle><entry xml:lang="en"><title type="html">Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach</title><link href="http://localhost:4000/henry.github.io/paper/2024/07/09/01/" rel="alternate" type="text/html" title="Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach" /><published>2024-07-09T22:10:00+08:00</published><updated>2024-07-09T22:10:00+08:00</updated><id>http://localhost:4000/henry.github.io/paper/2024/07/09/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/paper/2024/07/09/01/"><![CDATA[]]></content><author><name></name></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">Contrastive Out-of-Distribution with Multi-modal Information for Document Classification</title><link href="http://localhost:4000/henry.github.io/paper/2024/06/19/02/" rel="alternate" type="text/html" title="Contrastive Out-of-Distribution with Multi-modal Information for Document Classification" /><published>2024-06-19T20:10:00+08:00</published><updated>2024-06-19T20:10:00+08:00</updated><id>http://localhost:4000/henry.github.io/paper/2024/06/19/02</id><content type="html" xml:base="http://localhost:4000/henry.github.io/paper/2024/06/19/02/"><![CDATA[]]></content><author><name></name></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">Training a Machine to Learn Different Languages</title><link href="http://localhost:4000/henry.github.io/research/2024/06/19/01/" rel="alternate" type="text/html" title="Training a Machine to Learn Different Languages" /><published>2024-06-19T20:00:00+08:00</published><updated>2024-06-19T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/research/2024/06/19/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/research/2024/06/19/01/"><![CDATA[<div class="quote-box">
+</subtitle><entry xml:lang="en"><title type="html">Identification of Nonlinear Dynamics (SINDy) to Time-Series Data</title><link href="http://localhost:4000/henry.github.io/research/2024/07/11/01/" rel="alternate" type="text/html" title="Identification of Nonlinear Dynamics (SINDy) to Time-Series Data" /><published>2024-07-11T19:00:00+08:00</published><updated>2024-07-11T19:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/research/2024/07/11/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/research/2024/07/11/01/"><![CDATA[<div class="quote-box">
+  <p><b>Introduction</b></p>
+</div>
+
+<p>This project employs the Sparse Identification of Nonlinear Dynamics (SINDy) algorithm to identify governing equations from time-series data of three features related to fluid and gas dynamics. The data is from my previous project titled “<a href="/henry.github.io/assets/papers/Backpropagation.pdf">Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach</a>”. The three features analyzed are: Velocity of Fluid at Output 1, Mass Flow Rate of Gas at Output 1, and Velocity of Gas at Output 2. Using the SINDy algorithm, we reconstruct the underlying mathematical models governing these features by constructing a library of candidate functions, using sparse regression to identify the most relevant terms, and validating the identified equations against the observed data. This project demonstrates the effectiveness of SINDy in discovering simple, interpretable models from complex time-series data, enhancing our understanding of fluid and gas dynamics.</p>
+
+<div class="quote-box">
+  <p><b>Model Explanation: Sparse Identification of Nonlinear Dynamics (SINDy) Algorithm</b></p>
+</div>
+
+<p>Sparse Identification of Nonlinear Dynamics (SINDy) is an algorithm designed to discover parsimonious models that describe dynamical systems using a small number of terms from a large library of candidate functions. The approach combines the principles of sparse regression with a systematic library of nonlinear functions to identify the governing equations of the system from time-series data.</p>
+
+<h3 id="mathematical-formulation">Mathematical Formulation</h3>
+
+<p>Consider a dynamical system described by the ordinary differential equation (ODE):</p>
+
+\[\frac{d\mathbf{x}}{dt} = \mathbf{f}(\mathbf{x})\]
+
+<p>where \(\mathbf{x} \in \mathbb{R}^n\) is the state vector of the system and \(\mathbf{f}\) represents the nonlinear dynamics.</p>
+
+<p>The goal of SINDy is to approximate the function \(\mathbf{f}\) by a sparse linear combination of candidate functions from a predefined library. The process involves the following steps:</p>
+
+<ol>
+  <li>
+    <p><strong>Data Collection</strong>:
+Collect time-series data for the state variables \(\mathbf{x}(t)\). Let \(\mathbf{X}\) be the matrix containing these measurements, where each column corresponds to a different state variable and each row corresponds to a different time point.</p>
+  </li>
+  <li>
+    <p><strong>Library Construction</strong>:
+Construct a library \(\mathbf{\Theta}(\mathbf{X})\) of candidate functions. The library includes various nonlinear functions of the state variables, such as polynomials, trigonometric functions, and exponentials. Mathematically, the library can be represented as:</p>
+
+\[\mathbf{\Theta}(\mathbf{X}) = [\mathbf{1}, \mathbf{X}, \mathbf{X}^2, \sin(\mathbf{X}), \cos(\mathbf{X}), \exp(\mathbf{X}), \mathbf{X} \exp(\mathbf{X}), \ldots],\]
+
+    <p>where each column of \(\mathbf{\Theta}\) represents a different candidate function.</p>
+  </li>
+  <li>
+    <p><strong>Sparse Regression</strong>:
+For each state variable \(x_i\) express the time derivative \(\frac{dx_i}{dt}\) as a linear combination of the candidate functions in \(\mathbf{\Theta}(\mathbf{X})\):</p>
+
+\[\frac{d\mathbf{X}}{dt} = \mathbf{\Theta}(\mathbf{X}) \mathbf{\Xi},\]
+
+    <p>where \(\mathbf{\Xi}\) is a matrix of coefficients, with each column corresponding to a different state variable. The key idea is to enforce sparsity in \(\mathbf{\Xi}\), meaning that most of the coefficients should be zero. This can be achieved using sparse regression techniques such as the Least Absolute Shrinkage and Selection Operator (LASSO):</p>
+
+\[\mathbf{\Xi} = \underset{\mathbf{\Xi}}{\operatorname{argmin}} \left\| \frac{d\mathbf{X}}{dt} - \mathbf{\Theta}(\mathbf{X}) \mathbf{\Xi} \right\|_2^2 + \lambda \left\| \mathbf{\Xi} \right\|_1,\]
+
+    <p>where \(\lambda\) is a regularization parameter that controls the sparsity of the solution.</p>
+  </li>
+  <li>
+    <p><strong>Model Identification</strong>:
+The non-zero entries in the coefficient matrix \(\mathbf{\Xi}\) correspond to the terms in the library \(\mathbf{\Theta}(\mathbf{X})\) that are most relevant for describing the dynamics of the system. The identified model can be written as:</p>
+
+\[\frac{dx_i}{dt} = \sum_{j} \xi_{ij} \theta_j(\mathbf{x}),\]
+
+    <p>where \(\xi_{ij}\) are the non-zero coefficients and \(\theta_j(\mathbf{x})\) are the corresponding candidate functions.</p>
+  </li>
+</ol>
+
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0711_1.JPG" alt="Image 1" />
+   <br />
+   <div class="caption">Schematic of the SINDy algorithm, demonstrated on the Lorenz equations</div>
+</div>
+
+<p>In summary, SINDy offers a powerful framework for identifying governing equations from data, providing insights into the dynamics of complex systems through sparse and interpretable models. You can read original SINDy Paper <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.1517384113">here</a>.</p>
+
+<div class="quote-box">
+  <p><b>Data Processing</b></p>
+</div>
+
+<h3 id="preliminary">Preliminary</h3>
+
+<p>The data analyzed in this project stems from a previous machine learning effort titled <a href="/henry.github.io/assets/papers/Backpropagation.pdf">“Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach”</a>. This earlier project aimed to establish statistical relationships between selected features \(X = (X_1, X_2)\) and target features \(Y = (Y_1, Y_2, Y_3)\) using a combination of different models. The learning architecture involved three main stages: initial prediction, residual training, and model refinement. Through this parameter-focused approach, we obtained a prediction called \(Y_{\text{final}}\) of the target features with a relative MSE of 0.0005. However, these numerical predictions lack explanations and mathematical reasoning, especially in the last stage where we used a Multi-Layer Perceptron (MLP), which is often criticized as being a black box.</p>
+
+<p>Hence, in this project, I aim to use SINDy to construct the approximation of governing equations for these results. Although the approximated governing equations may not provide results as accurate as those from the numerical model, I hope they can offer more mathematical reasoning for the results and enhance our understanding of fluid and gas dynamics.</p>
+
+<p>The three features analyzed in the current SINDy project are:</p>
+
+<ol>
+  <li>
+    <p><strong>Velocity of Fluid at Output 1</strong>: This feature represents the speed at which the fluid is moving at the first output point. It is crucial for understanding the dynamics and behavior of fluid flow within the system.</p>
+  </li>
+  <li>
+    <p><strong>Mass Flow Rate of Gas at Output 1</strong>: This feature measures the mass of gas passing through the first output point per unit time. It is essential for evaluating the efficiency and performance of gas transport within the system.</p>
+  </li>
+  <li>
+    <p><strong>Velocity of Gas at Output 2</strong>: This feature indicates the speed of gas flow at the second output point. It provides insights into the behavior of gas dynamics, which is critical for optimizing and controlling gas-related processes.</p>
+  </li>
+</ol>
+
+<p>These features are recorded over a series of time steps, resulting in three columns of time-series data.</p>
+
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0711_2.JPG" alt="Image 2" />
+   <br />
+   <div class="caption">Time-series plot for the three features</div>
+</div>
+
+<h3 id="candidate-choice">Candidate Choice</h3>
+
+<p>To identify the governing equations for the three features, we construct a library of candidate functions. The chosen candidates are designed to capture a wide range of potential dynamics within the system. The library includes:</p>
+
+<ol>
+  <li>
+    <p><strong>Constant term</strong>: Represents a constant value across all time steps, capturing any baseline level in the data. This term helps to account for any steady-state behavior or offset in the data.</p>
+  </li>
+  <li>
+    <p><strong>Linear term \(t\)</strong>: Captures any linear trend in the data over time. This term is important for identifying any steady increase or decrease in the values, which might correspond to consistent acceleration or deceleration in the system.</p>
+  </li>
+  <li>
+    <p><strong>Quadratic term \(t^2\)</strong>: Accounts for any quadratic or parabolic trends in the data. This term is useful for modeling acceleration or deceleration that changes over time, often seen in systems experiencing non-linear growth or decay.</p>
+  </li>
+  <li>
+    <p><strong>Exponential term \(\exp(-t)\)</strong>: Models exponential decay, which is common in many physical and chemical processes such as radioactive decay, cooling, or damping in mechanical systems. The shape of this function rapidly decreases to zero as \(t\) increases, making it ideal for capturing processes that diminish over time.</p>
+  </li>
+  <li>
+    <p><strong>Sine term \(\sin(t)\)</strong>: Captures periodic oscillations or cycles in the data, often present in systems with harmonic motion like waves, vibrations, or seasonal variations. The sine function is valuable for identifying cyclic behaviors that repeat over regular intervals.</p>
+  </li>
+  <li>
+    <p><strong>Cosine term \(\cos(t)\)</strong>: Complements the sine term, capturing phase-shifted periodic behavior. While the sine term starts at zero, the cosine term starts at one, allowing for the capture of oscillatory behavior with different phases.</p>
+  </li>
+  <li>
+    <p><strong>Interaction term \(t \cdot \exp(-t)\)</strong>: Represents a combination of linear and exponential dynamics, useful for modeling more complex interactions in the system. This term starts at zero, increases to a peak, and then decays, making it suitable for processes that initially grow and then decay over time.</p>
+  </li>
+</ol>
+
+<p>These candidate functions are selected to provide a comprehensive while relatively simple basis for approximating the governing equations. Of course, you can select as many complex terms as you want to get a closer approximation; however, it is subtle to choose between interpretability and over-fitting.</p>
+
+<div class="quote-box">
+  <p><b>Network Setup and Training</b></p>
+</div>
+
+<ol>
+  <li>
+    <p><strong>Library Construction</strong>:
+A library of candidate functions is constructed for each feature. The library includes constant, linear, quadratic, exponential, sine, cosine, and interaction terms. These candidate functions are chosen to capture a wide range of potential dynamics within the system.</p>
+  </li>
+  <li><strong>Data Splitting</strong>:
+The data for each feature is split into three intervals:
+    <ul>
+      <li>Interval 1: \(t \in [0, 10)\)</li>
+      <li>Interval 2: \(t \in [10, 600)\)</li>
+      <li>Interval 3: \(t \in [600, 2000]\)</li>
+    </ul>
+
+    <p>Splitting the data into these intervals allows us to capture different dynamic behaviors that may occur over different time periods. Each interval is treated separately to ensure that the governing equations identified are specific to the dynamics within that interval, providing a more accurate and detailed understanding of the system’s behavior over time.</p>
+  </li>
+  <li><strong>Sparse Regression</strong>:
+The LassoCV algorithm, a type of L1-regularized linear regression, is used to fit the data. This process involves:
+    <ul>
+      <li>Scaling the candidate functions to standardize the data.</li>
+      <li>Performing cross-validation to determine the optimal regularization parameter (\(\lambda\)).</li>
+      <li>Identifying the coefficients for the most significant terms in the governing equations, ensuring that the resulting model is both sparse and interpretable.</li>
+    </ul>
+  </li>
+  <li><strong>Equation Construction</strong>:
+For each interval and each feature, the identified coefficients and terms are combined to form the governing equations. These piecewise equations provide a detailed mathematical representation of the dynamics within each interval, enhancing our understanding of the fluid and gas dynamics by revealing the underlying processes that drive the observed behavior.</li>
+</ol>
+
+<div class="quote-box">
+  <p><b>Experiment Results</b></p>
+</div>
+<p>The experimenting results are showing in the plot below:</p>
+
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0711_3.JPG" alt="Image 3" />
+   <br />
+   <div class="caption">Identified govern-equations and their corresponding plots vs actual results</div>
+</div>
+<p>The experiment results compare the actual time-series data for each feature with the identified equations derived using the SINDy algorithm. The three features analyzed are: <i>Velocity of Fluid at Output 1</i>, <i>Mass Flow Rate of Gas at Output 1</i>, and <i>Velocity of Gas at Output 2</i>.</p>
+
+<p>Overall, the identified equations capture the general trends and dynamic behaviors of the actual data. The SINDy algorithm effectively balances simplicity (interpretability) and accuracy (avoiding overfitting) by selecting a limited number of significant terms for the governing equations. This balance ensures that the model remains interpretable while providing a good approximation of the underlying dynamics.</p>
+
+<p>In the plots, the identified piecewise equations are presented alongside the actual data. These equations offer a detailed mathematical representation of the system’s behavior within each interval. While there are some deviations between the identified and actual data, particularly in certain intervals, the overall fit is strong, demonstrating the effectiveness of the SINDy approach in capturing the essential dynamics of fluid and gas behaviors.</p>
+
+<div class="quote-box">
+  <p><b>Conclusion</b></p>
+</div>
+<p>In this project, we applied the Sparse Identification of Nonlinear Dynamics (SINDy) algorithm to identify governing equations for time-series data from a previous machine learning project. Several key points and reflections emerged from this study:</p>
+
+<ol>
+  <li>
+    <p><strong>Candidate Choice is the Key</strong>:
+Selecting appropriate candidate functions to build the library is the most crucial part of SINDy. The library directly impacts the effectiveness and accuracy of the identified equations. A well-chosen library allows the model to capture the essential dynamics of the system while maintaining interpretability.</p>
+  </li>
+  <li>
+    <p><strong>Prior Knowledge of the System</strong>:
+The success of SINDy heavily relies on prior knowledge of the system to select the right candidates. This presents a challenge in real-world scenarios where background information about the data may be limited or unavailable. The effectiveness of SINDy in such cases remains an open question, highlighting the need for further research and potential enhancements to the algorithm.</p>
+  </li>
+  <li>
+    <p><strong>Balance Between Simplicity and Accuracy</strong>:
+Achieving a balance between simplicity and accuracy is a subtle and critical step in SINDy. While adding more complex candidate functions can improve approximation accuracy, it may lead to overfitting and result in terms that are difficult to interpret physically. For instance, a term like \(\sin(\exp(t^{\tan(\exp(t^4))}))\) might improve fit but lacks physical meaning and interpretability. The goal is to find a middle ground where the model is both accurate and interpretable, providing meaningful insights into the system dynamics.</p>
+  </li>
+  <li>
+    <p><strong>Code Repository:</strong> The complete code for this project is available on <a href="https://github.com/henryli121/SINDy-govern-equation-.git">GitHub</a>.</p>
+  </li>
+</ol>]]></content><author><name></name></author><category term="research" /><summary type="html"><![CDATA[Introduction]]></summary></entry><entry xml:lang="en"><title type="html">Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach</title><link href="http://localhost:4000/henry.github.io/paper/2024/07/09/01/" rel="alternate" type="text/html" title="Enhanced Feature Prediction in Time-Series Data Using a Structured Learning Approach" /><published>2024-07-09T22:10:00+08:00</published><updated>2024-07-09T22:10:00+08:00</updated><id>http://localhost:4000/henry.github.io/paper/2024/07/09/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/paper/2024/07/09/01/"><![CDATA[]]></content><author><name></name></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">Contrastive Out-of-Distribution with Multi-modal Information for Document Classification</title><link href="http://localhost:4000/henry.github.io/paper/2024/06/19/02/" rel="alternate" type="text/html" title="Contrastive Out-of-Distribution with Multi-modal Information for Document Classification" /><published>2024-06-19T20:10:00+08:00</published><updated>2024-06-19T20:10:00+08:00</updated><id>http://localhost:4000/henry.github.io/paper/2024/06/19/02</id><content type="html" xml:base="http://localhost:4000/henry.github.io/paper/2024/06/19/02/"><![CDATA[]]></content><author><name></name></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">Training a Machine to Learn Different Languages</title><link href="http://localhost:4000/henry.github.io/research/2024/06/19/01/" rel="alternate" type="text/html" title="Training a Machine to Learn Different Languages" /><published>2024-06-19T20:00:00+08:00</published><updated>2024-06-19T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/research/2024/06/19/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/research/2024/06/19/01/"><![CDATA[<div class="quote-box">
   <p><b>Introduction</b></p>
 </div>
 
