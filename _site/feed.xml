@@ -1,7 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-07-12T20:42:35+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-07-16T17:55:58+08:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; -- George E.P.Box
-</subtitle><entry xml:lang="zh"><title type="html">非线性动力学的识别 (SINDy) 于时间序列数据</title><link href="http://localhost:4000/henry.github.io/create/2024/07/12/01/" rel="alternate" type="text/html" title="非线性动力学的识别 (SINDy) 于时间序列数据" /><published>2024-07-12T20:00:00+08:00</published><updated>2024-07-12T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/create/2024/07/12/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/create/2024/07/12/01/"><![CDATA[<div class="quote-box">
+</subtitle><entry xml:lang="zh"><title type="html">从西班牙浅析现代足球发展</title><link href="http://localhost:4000/henry.github.io/blog/2024/07/16/01/" rel="alternate" type="text/html" title="从西班牙浅析现代足球发展" /><published>2024-07-16T17:00:00+08:00</published><updated>2024-07-16T17:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/07/16/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/07/16/01/"><![CDATA[<div class="quote-box">
+  <p>前言</p>
+</div>
+<p>因为要一早去办事，无缘昨晚凌晨三点的欧洲杯决赛。但是，其实我并不担心西班牙，因为英格兰确实没那个实力跟西班牙争冠。我这不是马后炮，在欧洲杯开赛以前我就成功预测了四强，半决赛乃至最后的冠军 - 朋友建议我开通一个足球竞猜咨询服务（一场10块）。</p>
+<div class="image-container">
+  <img src="/henry.github.io/assets/blog_images/0716_1.JPG" alt="Image 1" />
+</div>
+
+<div class="quote-box">
+  <p>效率和务实依然是现代足球的核心</p>
+</div>
+<p>在2018年法国赢得世界杯时，我曾写过一篇博客，指出现代足球的核心是追求效率和务实。法国队通过防守反击的策略，建立坚固的阵地防守，减少中场过度控球与传递，反击时迅速将球从后场打到前场。这种策略的成功使得越来越多的队伍青睐这种打法。然而，不知何时，欧洲足球在追求务实和效率上走上了极端，认为法国的这种快速直传是唯一的解决之道。</p>
+
+<div class="quote-box">
+  <p>直和快一定不是足球的最优解</p>
+</div>
+<p>如果将足球比赛看作非完全信息博弈，那么必然不只有一种方法可以达到最优解。在我看来，巅峰时期的传控足球也是对效率和务实的追求。每一次跑动和传球虽然并不是最快和最直接的，但都是为了高效地拉扯出空间，务实地创造机会。俗话说物极必反，这几年欧洲足球在过度追求效率和务实的过程中，完全放弃了中场，对球员脚下技术的要求越来越低，导致了如今的比赛越来越“难看”。</p>
+
+<div class="quote-box">
+  <p>可以不用传控，但不能没有传控</p>
+</div>
+<p>在权威网站“Soccer Training Solutions”上的一篇文章提到：“传球是最快和最有效的方式来移动球，它能让队友参与进来，突破防守，并创造得分机会。伟大的球队和球员在传球方面表现出色。接球（包括第一次触球）对于流畅地控制球并进行下一步动作至关重要。” 因此，传球和接球是足球运动最基本的基本功。如今的西班牙在无效传控和极致务实之间找到了一个稳定的平衡点。</p>
+
+<p>反击时，西班牙队通常只需1～2脚精准的传接球便可将球从中场传递到前场，这是对效率的足球。而在需要控制比赛节奏的时候（例如在领先时），球队可以从容地将球控制在脚下，因为他们从未忘记对脚下技术的打磨。正所谓“善战者，动如雷霆，不动如山”，这体现了孙子兵法中的智慧，也说明了传控足球在现代足球中的重要性。</p>
+
+<div class="quote-box">
+  <p>总结</p>
+</div>
+<p>现代足球的发展不能忽视传控足球的价值。效率和务实固然重要，但过度追求简单粗暴的打法会让比赛失去应有的美感和平衡。西班牙足球展示了如何在务实和传控之间找到平衡，这种智慧和技术的结合，是现代足球发展的重要方向。</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[前言 因为要一早去办事，无缘昨晚凌晨三点的欧洲杯决赛。但是，其实我并不担心西班牙，因为英格兰确实没那个实力跟西班牙争冠。我这不是马后炮，在欧洲杯开赛以前我就成功预测了四强，半决赛乃至最后的冠军 - 朋友建议我开通一个足球竞猜咨询服务（一场10块）。]]></summary></entry><entry xml:lang="zh"><title type="html">非线性动力学的识别 (SINDy) 于时间序列数据</title><link href="http://localhost:4000/henry.github.io/create/2024/07/12/01/" rel="alternate" type="text/html" title="非线性动力学的识别 (SINDy) 于时间序列数据" /><published>2024-07-12T20:00:00+08:00</published><updated>2024-07-12T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/create/2024/07/12/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/create/2024/07/12/01/"><![CDATA[<div class="quote-box">
   <p><b>介绍</b></p>
 </div>
 
@@ -878,46 +906,4 @@ bundle <span class="nb">exec </span>jekyll serve
 
 <div class="final-quote">
   “行善者，不畏困苦，不计前功，不望后福，但求无愧于心。” 
-</div>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[2022.06.30 — 巴塞罗那俱乐部财政赤字：-6.08亿欧元 2022.09.03 — 巴塞罗那连续第14个赛季向联合国儿童基金会捐赠150万欧元 2023.06.23 — 巴塞罗那俱乐部依旧财政赤字：-13.5亿欧元 2023.09.11 — 巴塞罗那俱乐部通过基金会向摩洛哥地震施予援助。]]></summary></entry><entry xml:lang="zh"><title type="html">拍摄星空 是件浪漫又孤独的事</title><link href="http://localhost:4000/henry.github.io/blog/2024/05/29/01/" rel="alternate" type="text/html" title="拍摄星空 是件浪漫又孤独的事" /><published>2024-05-29T20:00:00+08:00</published><updated>2024-05-29T20:00:00+08:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/05/29/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/05/29/01/"><![CDATA[<p>本科的时候，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。</p>
-<div class="image-container">
-  <img src="/henry.github.io/assets/blog_images/0529_01.JPG" alt="Image 1" />
-  <br />
-  <div class="caption"> 图中的蓝点是旅行者1号在离开太阳系时拍摄的地球</div>
-</div>
-
-<p>但是心里那种对宇宙的好奇和对未知的探索，却一直推动者我。抬起头，去仰望这个一望无际的宇宙；去拍摄，这星光璀璨的星空。</p>
-<div class="image-container">
-  <img src="/henry.github.io/assets/blog_images/0529_02.JPG" alt="Image 2" />
-</div>
-<div class="image-container">
-    <img src="/henry.github.io/assets/blog_images/0529_04.JPG" alt="Image 3" />
-    <br />
-    <div class="caption">60倍镜头变焦下的月亮</div>
-</div>
-
-<p>月球是我拍摄过最多的天体。也许是因为她最近，也许是因为她亮，但是更吸引我的是<b>她那永远看不到的背面</b>。</p>
-
-<div class="image-container">
-  <img src="/henry.github.io/assets/blog_images/0529_05.JPG" alt="Image 4" />
-  <br />
-  <div class="caption">天文课上用专业的望远镜拍摄的NGC 4485星系，距地球2500万光年</div>
-</div>
-
-<p>这是我拍摄过最远的星体。虽然在一瞬间就看了它，但是这个星体发出的光其实是2500万年前的。那时候地球还在中新世，冰河时代即将开始，哺乳动物也才刚刚出现。
-<br />
-<br />
-有人说当你抬头仰望星空时，你就能看见整个宇宙的历史。的确，因为光速是有限的，你看的月亮其实是1.3秒前的月亮，你看到的太阳其实是8分钟前的太阳。星体越远，你看到是它们越遥远的历史。</p>
-
-<div class="image-container">
-  <img src="/henry.github.io/assets/blog_images/0529_06.JPG" alt="Image 5" />
-  <br />
-  <div class="caption">昨晚我头顶的星空</div>
-</div>
-
-<p>我望着这星河璀璨的夜空，突然感到有一阵无助的孤独。<b>我</b> 只是这个地球上的1/70亿，地球只是银河系1/1000亿，而银河系只是这个宇宙的1/10000亿。
-<br />
-<br />
-我 小到忽略不计，于是我问自己，“<b>我存在的意义又是什么呢？</b>”
-<br />
-<br />
-又突然想到，当1000年前的苏轼写下 “<b>寄蜉蝣于天地，渺沧海之一粟</b>” 时，他是不是跟我仰望的同一片星空呢？</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[本科的时候，我上了一节 “观测天文学” 的物理课。那节课重新激发了我对宇宙的兴趣。小时候的梦想一直的梦想就是做一个天文学家，但是随着年龄的长大，我发现，宇宙实在是太远太大了，总感觉这个梦想不切实际。 图中的蓝点是旅行者1号在离开太阳系时拍摄的地球]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[2022.06.30 — 巴塞罗那俱乐部财政赤字：-6.08亿欧元 2022.09.03 — 巴塞罗那连续第14个赛季向联合国儿童基金会捐赠150万欧元 2023.06.23 — 巴塞罗那俱乐部依旧财政赤字：-13.5亿欧元 2023.09.11 — 巴塞罗那俱乐部通过基金会向摩洛哥地震施予援助。]]></summary></entry></feed>
