@@ -129,5 +129,50 @@ body.dark-mode {
 #dark-mode-toggle {
     display: none;
 }
+
+/* Tooltip container */
+.hover-text {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+  }
+  
+  /* Tooltip text */
+  .hover-text .tooltip-content {
+    opacity: 0;
+    position: absolute;
+    bottom: 125%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%) scale(0.95);
+    background-color: rgba(85, 85, 85, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    z-index: 1;
+    /* Ensure the text renders smoothly */
+    will-change: opacity, transform;
+  }
+  
+  /* Tooltip arrow */
+  .hover-text .tooltip-content::after {
+    content: '';
+    position: absolute;
+    top: 100%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip */
+  .hover-text:hover .tooltip-content,
+  .hover-text:focus .tooltip-content {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
   /* Add more styles as needed to properly style your dark mode */
 /* Add more specific styles as needed for other elements */
