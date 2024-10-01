@@ -143,7 +143,7 @@ body.dark-mode {
     position: absolute;
     bottom: 125%; /* Adjust as needed */
     left: 50%; /* Keep centered */
-    transform: translateX(-50%) scale(0.95); /* Adjust if needed */
+    transform: translateX(-50%) scale(0.95);
     background-color: rgba(85, 85, 85, 0.95);
     color: #fff;
     text-align: left;
@@ -157,8 +157,9 @@ body.dark-mode {
 
     /* Adjustments to make the width dynamic */
     white-space: normal;
-    max-width: 1000px; /* Increase maximum width */
-    min-width: 400px; /* Optional */
+    max-width: 200vw; /* Up to 90% of viewport width */
+    min-width: 40vw;
+    /* Remove min-width */
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -180,6 +181,25 @@ body.dark-mode {
 .hover-text:focus .tooltip-content {
     opacity: 1;
     transform: translateX(-50%) scale(1);
+}
+
+/* Media queries for responsiveness */
+
+/* For screens larger than 768px (desktop) */
+@media (min-width: 768px) {
+  .hover-text .tooltip-content {
+    max-width: 600px; /* Set a comfortable max-width for desktop */
+    /* Positioning adjustments if needed */
+  }
+}
+
+/* For screens smaller than 768px (mobile) */
+@media (max-width: 767px) {
+  .hover-text .tooltip-content {
+    max-width: 90vw; /* Allow the tooltip to be up to 90% of viewport width */
+    left: 50%;
+    transform: translateX(-50%) scale(0.95);
+  }
 }
   /* Add more styles as needed to properly style your dark mode */
 /* Add more specific styles as needed for other elements */
