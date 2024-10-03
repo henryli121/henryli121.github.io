@@ -217,7 +217,7 @@ body.dark-mode {
     .tooltip-content {
       width: 95vw;
       max-width: none; /* Remove max-width constraint */
-      min-width: 30vw;
+      min-width: 60vw;
     }
   }
   /* Add more styles as needed to properly style your dark mode */
