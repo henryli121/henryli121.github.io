@@ -205,18 +205,17 @@ body.dark-mode {
   
   /* Media queries for responsiveness */
   
-  /* For screens larger than 768px (desktop) */
-  @media (min-width: 768px) {
+/* For screens larger than 768px (desktop) */
+@media (min-width: 768px) {
     .tooltip-content {
-      max-width: 400px; /* Adjust as needed */
-      min-width: 50px;
+      max-width: 400px; /* Increased from 200px to 400px */
     }
   }
   
   /* For screens smaller than 768px (mobile) */
   @media (max-width: 767px) {
     .tooltip-content {
-      max-width: 90vw;
+      max-width: 95vw; /* Allow tooltip to be up to 95% of viewport width */
       left: 50%;
       transform: translateX(-50%) scale(0.95);
     }
