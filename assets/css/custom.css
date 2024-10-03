@@ -213,12 +213,13 @@ body.dark-mode {
   }
   
   /* For screens smaller than 768px (mobile) */
-  @media (max-width: 767px) {
-    .tooltip-content {
-      width: 95vw;
-      max-width: none; /* Remove max-width constraint */
-      min-width: 60vw;
-    }
+/* For screens smaller than 768px (mobile) */
+@media (max-width: 767px) {
+  .tooltip-content {
+    width: 95vw !important;
+    max-width: none !important;
+    /* Remove min-width */
   }
+}
   /* Add more styles as needed to properly style your dark mode */
 /* Add more specific styles as needed for other elements */
