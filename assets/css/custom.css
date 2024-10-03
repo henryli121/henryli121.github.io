@@ -208,7 +208,7 @@ body.dark-mode {
 /* For screens larger than 768px (desktop) */
 @media (min-width: 768px) {
     .tooltip-content {
-      max-width: 400px; /* Increased from 200px to 400px */
+      max-width: 800px; /* Increased from 200px to 400px */
     }
   }
   
