@@ -208,15 +208,14 @@ body.dark-mode {
 /* For screens larger than 768px (desktop) */
 @media (min-width: 768px) {
     .tooltip-content {
-      max-width: 800px; /* Increased from 200px to 400px */
+      max-width: 400px; /* Increased from 200px to 400px */
     }
   }
-  
-  /* For screens smaller than 768px (mobile) */
+
 /* For screens smaller than 768px (mobile) */
 @media (max-width: 767px) {
   .tooltip-content {
-    width: 50vw;
+    width: 61.8vw;
     max-width: none;
     /* Remove min-width */
   }
