@@ -130,76 +130,95 @@ body.dark-mode {
     display: none;
 }
 /* Tooltip container */
-.hover-text {
-    position: relative;
-    cursor: pointer;
+/* Tooltip container */
+.tooltip-container {
+    position: relative; /* Establishes positioning context for the tooltip */
     display: inline-block;
+  }
+  
+  /* Trigger text */
+  .hover-text {
+    cursor: pointer;
     outline: none;
-}
-
-/* Tooltip text */
-.hover-text .tooltip-content {
+  }
+  
+  /* Tooltip content */
+  .tooltip-content {
     opacity: 0;
+    visibility: hidden;
     position: absolute;
-    bottom: 125%; /* Adjust as needed */
-    left: 50%; /* Keep centered */
+    bottom: 125%; /* Position above the trigger text */
+    left: 50%;
     transform: translateX(-50%) scale(0.95);
     background-color: rgba(85, 85, 85, 0.95);
     color: #fff;
     text-align: left;
     padding: 5px;
     border-radius: 6px;
-    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out, visibility 0s linear 0.2s;
     z-index: 1;
     will-change: opacity, transform;
     display: inline-block;
     box-sizing: border-box;
-
-    /* Adjustments to make the width dynamic */
     white-space: normal;
-    max-width: 200vw; /* Up to 90% of viewport width */
-    min-width: 40vw;
-    /* Remove min-width */
+    max-width: 200vw; /* Adjust as needed */
+    min-width: 35vw;
     word-wrap: break-word;
     overflow-wrap: break-word;
-}
-
-/* Tooltip arrow */
-.hover-text .tooltip-content::after {
+  }
+  
+  /* Tooltip arrow */
+  .tooltip-content::after {
     content: '';
     position: absolute;
-    top: 100%; /* Adjust as needed */
+    top: 100%; /* At the bottom of the tooltip */
     left: 50%;
     transform: translateX(-50%);
     border-width: 5px;
     border-style: solid;
     border-color: rgba(85, 85, 85, 0.95) transparent transparent transparent;
-}
-
-/* Show the tooltip */
-.hover-text:hover .tooltip-content,
-.hover-text:focus .tooltip-content {
+  }
+  
+  /* Show the tooltip when hovering over the trigger text */
+  .tooltip-container .hover-text:hover + .tooltip-content,
+  .tooltip-container .hover-text:focus + .tooltip-content {
     opacity: 1;
+    visibility: visible;
     transform: translateX(-50%) scale(1);
-}
-
-/* Media queries for responsiveness */
-
-/* For screens larger than 768px (desktop) */
-@media (min-width: 768px) {
-  .hover-text .tooltip-content {
-    max-width: 600px; /* Set a comfortable max-width for desktop */
-    /* Positioning adjustments if needed */
+    transition-delay: 0s;
   }
-}
-
-/* For screens smaller than 768px (mobile) */
-@media (max-width: 767px) {
-  .hover-text .tooltip-content {
-    max-width: 90vw; /* Allow the tooltip to be up to 90% of viewport width */
-    left: 50%;
-    transform: translateX(-50%) scale(0.95);
+  
+  /* Styles for images within the tooltip */
+  .tooltip-content img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0; /* Adjust margins as needed */
   }
-}
+
+  /* Styles for paragraphs within the tooltip */
+    .tooltip-content p {
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Ensure text is left-aligned */
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens larger than 768px (desktop) */
+  @media (min-width: 768px) {
+    .tooltip-content {
+      max-width: 600px; /* Adjust as needed */
+    }
+  }
+  
+  /* For screens smaller than 768px (mobile) */
+  @media (max-width: 767px) {
+    .tooltip-content {
+      max-width: 90vw;
+      left: 50%;
+      transform: translateX(-50%) scale(0.95);
+    }
+  }
   /* Add more styles as needed to properly style your dark mode */
 /* Add more specific styles as needed for other elements */
