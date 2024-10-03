@@ -162,7 +162,7 @@ body.dark-mode {
     box-sizing: border-box;
     white-space: normal;
     max-width: 200vw; /* Adjust as needed */
-    min-width: 35vw;
+    min-width: 38vw;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
@@ -208,9 +208,9 @@ body.dark-mode {
 /* For screens larger than 768px (desktop) */
 @media (min-width: 768px) {
     .tooltip-content {
-      max-width: 400px; /* Increased from 200px to 400px */
+      max-width: 200px; /* Increased from 200px to 400px */
     }
-  }
+}
 
 /* For screens smaller than 768px (mobile) */
 @media (max-width: 767px) {
