@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-10-03T22:41:44+01:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-10-03T23:02:17+01:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; -- George E.P.Box
 </subtitle><entry xml:lang="zh"><title type="html">论提升一个国家足球整体实力的三个要素</title><link href="http://localhost:4000/henry.github.io/blog/2024/10/01/01/" rel="alternate" type="text/html" title="论提升一个国家足球整体实力的三个要素" /><published>2024-10-01T12:00:00+01:00</published><updated>2024-10-01T12:00:00+01:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/10/01/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/10/01/01/"><![CDATA[<p><strong>引言</strong></p>
@@ -6,14 +6,16 @@
 <p>足球，通常被称为“美丽的游戏”，拥有团结国家、超越文化障碍并激励全球数百万人的力量。增强一个国家的足球实力不仅仅是在国际舞台上取得成功，而是关于培养一个充满活力的体育文化，从基层培养人才，并建立一个支持这项运动持续发展的可持续生态系统。本文探讨了增强国家整体足球实力的三个基本要素：</p>
 
 <ol>
-  <li><strong>青少年发展计划</strong></li>
-  <li><strong>足球文化的发展</strong></li>
-  <li><strong>健康的国内联赛体系</strong></li>
+  <li><a href="#youth-development"><strong>青少年发展计划</strong></a></li>
+  <li><a href="#football-culture"><strong>足球文化的发展</strong></a></li>
+  <li><a href="#domestic-league"><strong>健康的国内联赛体系</strong></a></li>
 </ol>
+
+<p>和这个三个基本要素的<a href="#logic"><strong>内在逻辑</strong></a>，以及<a href="#investment"><strong>财务投资</strong></a>和<a href="#association"><strong>足球协会</strong></a>-两个在足球发展中扮演着至关重要的角色。</p>
 
 <hr />
 
-<h2 id="1-青少年发展计划">1. 青少年发展计划</h2>
+<h2 id="youth-development">1. 青少年发展计划</h2>
 
 <p>一个强大的青少年发展体系是任何成功足球国家的基石。对年轻人才的投资确保了一条持续不断的精英球员管道。</p>
 
@@ -23,7 +25,7 @@
     <p>建立全国性的球探网络，确保无论他们位于何处或背景如何，具有潜力的个人都能早期被发现。这种包容性最大限度地扩大了人才库，并促进了足球中的多样性。</p>
     <div class="tooltip-container">
   <span class="hover-text" tabindex="0">
-  实例: <u><b>德国DFB天才发展计划</b></u>
+  实例: <u><b>德国DFB天才发展计划</b></u> (点击可查看具体细节)
   </span>
   <span class="tooltip-content">
     <p>
@@ -75,7 +77,7 @@
 
 <hr />
 
-<h2 id="2-足球文化的发展">2. 足球文化的发展</h2>
+<h2 id="football-culture">2. 足球文化的发展</h2>
 
 <p>强大的足球文化促进了社区参与，并为这项运动的长期发展和成功奠定了深厚的基础。</p>
 
@@ -130,7 +132,7 @@
 
 <hr />
 
-<h2 id="3-健康的国内联赛体系">3. 健康的国内联赛体系</h2>
+<h2 id="domestic-league">3. 健康的国内联赛体系</h2>
 
 <p>强大的国内联赛体系为球员的发展、比赛经验和这项运动的财务可持续性提供了基础。</p>
 
@@ -185,7 +187,7 @@
 
 <hr />
 
-<h2 id="内在逻辑">内在逻辑</h2>
+<h2 id="logic">内在逻辑</h2>
 
 <p>理解这三个要素的相互联系对于理解它们如何共同增强一个国家的足球实力至关重要。每个要素相互支持和强化，创造出一个驱动持续进步的协同效应。</p>
 
@@ -211,7 +213,7 @@
 
 <hr />
 
-<h2 id="财务投资">财务投资</h2>
+<h2 id="investment">财务投资</h2>
 
 <p>虽然财务投资并不是单独的要素，但它是支撑足球发展的支柱。充足的资金能够支持设施、项目和人力资源的创建和维护。然而，审慎的财务管理至关重要，以防止腐败、俱乐部破产或短期行为，这些问题可能会破坏可持续增长。</p>
 
@@ -225,7 +227,7 @@
 
 <hr />
 
-<h2 id="足球协会">足球协会</h2>
+<h2 id="association">足球协会</h2>
 
 <p>所有讨论的要素和举措都依赖于一个国家足球协会的领导和治理。一个透明、专业和富有远见的足球协会是推动各个层次足球发展的关键。</p>
 
