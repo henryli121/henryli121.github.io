@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-10-03T22:28:58+01:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/henry.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/henry.github.io/" rel="alternate" type="text/html" /><updated>2024-10-03T22:41:44+01:00</updated><id>http://localhost:4000/henry.github.io/feed.xml</id><title type="html">My Approximation</title><subtitle>&quot;在终极的分析中，一切知识都是历史；在抽象的意义下，一切科学都是数学；在理性的基础上，所有的判断都是统计学&quot;。
 &lt;br&gt;
 “All models are wrong, but some are useful&quot; -- George E.P.Box
 </subtitle><entry xml:lang="zh"><title type="html">论提升一个国家足球整体实力的三个要素</title><link href="http://localhost:4000/henry.github.io/blog/2024/10/01/01/" rel="alternate" type="text/html" title="论提升一个国家足球整体实力的三个要素" /><published>2024-10-01T12:00:00+01:00</published><updated>2024-10-01T12:00:00+01:00</updated><id>http://localhost:4000/henry.github.io/blog/2024/10/01/01</id><content type="html" xml:base="http://localhost:4000/henry.github.io/blog/2024/10/01/01/"><![CDATA[<p><strong>引言</strong></p>
@@ -104,6 +104,7 @@
   实例: <u><b>冰岛的政府投资</b></u>
   </span>
   <span class="tooltip-content" role="tooltip" id="tooltip2">
+  <img src="/henry.github.io/assets/blog_images/1003_02.JPG" alt="Image 2" />
     <p>
     尽管<strong>冰岛</strong>人口仅有<strong>36.6万人</strong>，政府投资了大约<strong>1,500万美元</strong>用于建设室内足球设施并加强教练教育。该国现在每<strong>500名居民</strong>就拥有一名<strong>欧足联认证的教练</strong>，这是全球最高的比例之一。这种投资促使冰岛国家队历史性地进入了<strong>2016年欧锦赛</strong>和<strong>2018年世界杯</strong>。
     </p>
@@ -143,6 +144,7 @@
   实例：<u><b>英国曼切斯特</b></u>
   </span>
   <span class="tooltip-content" role="tooltip" id="tooltip4">
+  <img src="/henry.github.io/assets/blog_images/1003_03.JPG" alt="Image 3" />
     <p>
     <strong>曼彻斯特</strong>拥有强大的足球基础设施，包含超过<strong>10座</strong>专业足球场，如老特拉福德和阿提哈德球场，以及超过<strong>50个健身房和训练中心</strong>。此外，城市设有先进的运动医学中心，如曼彻斯特运动医学研究所，为运动员提供康复和医学支持。这些设施推动了职业和基层足球的共同发展。
     </p>
