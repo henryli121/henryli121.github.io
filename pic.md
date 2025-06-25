@@ -35,5 +35,15 @@ permalink: /pic/
     <img src="{{ '/assets/images/006.JPG' | relative_url }}" alt="Image 6">
     <div class="caption">“伦敦眼”</div>
   </a>
+    <a href="{{ '/assets/images/007.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍美国羚羊谷<br>
+  FUJIFILM X-T30II, 44mm, f/5, 1/220s, ISO 160">
+    <img src="{{ '/assets/images/007.JPG' | relative_url }}" alt="Image 7">
+    <div class="caption">“时光的褶皱”</div>
+  </a>
+    <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍美国拱门国家公园<br>
+  iPhone 16 Pro, 24mm, f/1.78, 10s, ISO 10000">
+    <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
+    <div class="caption">“星汉之下 一切都失去了意义”</div>
+  </a>
   <!-- Add more images as needed -->
 </div>
