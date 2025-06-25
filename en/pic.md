@@ -30,5 +30,20 @@ permalink: /en/pic/
     <img src="{{ '/assets/images/005.JPG' | relative_url }}" alt="Image 5">
     <div class="caption">"Daisies"</div>
   </a>
+  <a href="{{ '/assets/images/006.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍London, England<br>
+    FUJIFILM X-T4, 33mm, f/2, 1/600s, ISO 320">
+      <img src="{{ '/assets/images/006.JPG' | relative_url }}" alt="Image 6">
+      <div class="caption">“London Eye”</div>
+    </a>
+      <a href="{{ '/assets/images/007.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍Antelope Canyon<br>
+    FUJIFILM X-T30II, 44mm, f/5, 1/220s, ISO 160">
+      <img src="{{ '/assets/images/007.JPG' | relative_url }}" alt="Image 7">
+      <div class="caption">“The Pleats of Time”</div>
+    </a>
+      <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍Arches National Park<br>
+    iPhone 16 Pro, 24mm, f/1.78, 10s, ISO 10000">
+      <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
+      <div class="caption">“Beneath the Starry Sky, All Things Lost Their Meaning”</div>
+    </a>
   <!-- Add more images as needed -->
 </div>
