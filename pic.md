@@ -40,10 +40,15 @@ permalink: /pic/
     <img src="{{ '/assets/images/007.JPG' | relative_url }}" alt="Image 7">
     <div class="caption">“时光的褶皱”</div>
   </a>
-    <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍美国拱门国家公园<br>
-  iPhone 16 Pro, 24mm, f/1.78, 10s, ISO 10000">
+    <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍38°23'37.7"N 110°49'56.4"W <br>
+  FUJIFILM X-T30II, 68mm, f/5.6, 1/950s, ISO 80">
     <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
-    <div class="caption">“星汉之下 一切都失去了意义”</div>
+    <div class="caption">“一个是能靠坐标到达的地方”</div>
+  </a>
+      <a href="{{ '/assets/images/009.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍工厂孤峰 <br>
+  Hasselblad, 24mm, f/6.3, 1/640s, ISO 100">
+    <img src="{{ '/assets/images/009.JPG' | relative_url }}" alt="Image 9">
+    <div class="caption">“失落星球”</div>
   </a>
   <!-- Add more images as needed -->
 </div>
