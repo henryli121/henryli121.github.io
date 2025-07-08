@@ -45,5 +45,15 @@ permalink: /en/pic/
       <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
       <div class="caption">“Beneath the Starry Sky, All Things Lost Their Meaning”</div>
     </a>
+        <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍38°23&apos;37.7&quot;N 110°49&apos;56.4&quot;W <br>
+      FUJIFILM X-T30II, 68mm, f/5.6, 1/950s, ISO 80">
+        <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
+        <div class="caption">“A Place only Can be Reached By Coordinates”</div>
+      </a>
+          <a href="{{ '/assets/images/009.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍Factory Butte<br>
+      Hasselblad, 24mm, f/6.3, 1/640s, ISO 100">
+        <img src="{{ '/assets/images/009.JPG' | relative_url }}" alt="Image 9">
+        <div class="caption">“The Lost Planet”</div>
+      </a>
   <!-- Add more images as needed -->
 </div>
