@@ -40,7 +40,7 @@ permalink: /pic/
     <img src="{{ '/assets/images/007.JPG' | relative_url }}" alt="Image 7">
     <div class="caption">“时光的褶皱”</div>
   </a>
-    <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍38°23'37.7"N 110°49'56.4"W <br>
+    <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍38°23&apos;37.7&quot;N 110°49&apos;56.4&quot;W <br>
   FUJIFILM X-T30II, 68mm, f/5.6, 1/950s, ISO 80">
     <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
     <div class="caption">“一个是能靠坐标到达的地方”</div>
