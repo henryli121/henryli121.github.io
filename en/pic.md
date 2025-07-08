@@ -40,11 +40,6 @@ permalink: /en/pic/
       <img src="{{ '/assets/images/007.JPG' | relative_url }}" alt="Image 7">
       <div class="caption">“The Pleats of Time”</div>
     </a>
-      <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍Arches National Park<br>
-    iPhone 16 Pro, 24mm, f/1.78, 10s, ISO 10000">
-      <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
-      <div class="caption">“Beneath the Starry Sky, All Things Lost Their Meaning”</div>
-    </a>
         <a href="{{ '/assets/images/008.JPG' | relative_url }}" data-lightbox="gallery" data-title="📍38°23&apos;37.7&quot;N 110°49&apos;56.4&quot;W <br>
       FUJIFILM X-T30II, 68mm, f/5.6, 1/950s, ISO 80">
         <img src="{{ '/assets/images/008.JPG' | relative_url }}" alt="Image 8">
