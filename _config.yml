@@ -43,23 +43,23 @@ plugins:
 # Add the navigation links here
 nav_links:
   - name: "关于"
-    link: "/henry.github.io/about/"
+    link: "/about/"
   - name: "博客"
-    link: "/henry.github.io/blog/"
+    link: "/blog/"
   - name: "摄影"
-    link: "/henry.github.io/pic/"
+    link: "/pic/"
   - name: "创作"
-    link: "/henry.github.io/create/"
-  
+    link: "/create/"
+
 en_nav_links:
   - name: "About"
-    link: "/henry.github.io/en/about/"
+    link: "/en/about/"
   - name: "Paper"
-    link: "/henry.github.io/en/paper/"
+    link: "/en/paper/"
   - name: "Research"
-    link: "/henry.github.io/en/research/"
+    link: "/en/research/"
   - name: "Photography"
-    link: "/henry.github.io/en/pic/"
+    link: "/en/pic/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
